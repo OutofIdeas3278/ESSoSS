@@ -1,0 +1,1544 @@
+{
+	"siteVersion": "1.154.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "ElijasStolenScrollofSuperiorSpells",
+				"abbreviation": "ESSoSS",
+				"full": "Elija's Stolen Scroll of Superior Spells",
+				"url": "https://homebrewery.naturalcrit.com/share/LhknfQoWo",
+				"authors": [
+					"Kurt Scott"
+				],
+				"convertedBy": [
+					"Kurt Scott"
+				]
+			}
+		],
+		"dateAdded": 1652965252,
+		"dateLastModified": 1652965252
+	},
+	"spell": [
+		{
+			"name": "Blade Ward",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You extend your hand and trace a sigil of warding in the air. The first time you take bludgeoning, piercing or slashing damage during the spells duration, you gain resistance against the damage. Until the spell ends, you can use your reaction to gain resistance against one instance of bludgeoning, piercing or slashing damage."
+			],
+			"damageResist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Friends",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, you have advantage on all Charisma ability checks. Any creature that observes you casting the spell can attempt a Wisdom (insight) check against your spell save DC. On a success, a creature becomes aware that you are using magic to influence it. The consequences of this are at the DM's discretion, but most creatures do not take kindly to such magical trickery, an whatever benefit you might have gained from your successful Charisma checks are lost, or the subject will seek to foil you."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Psionics (UA)",
+							"source": "UAFighterRogueWizard"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Eladrin)",
+					"source": "UAEladrinAndGith",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Siren",
+					"source": "PSX"
+				},
+				{
+					"name": "Tiefling (Fierna)",
+					"source": "UAFiendishOptions",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Fierna)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Azorius Functionary",
+					"source": "GGR"
+				},
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				},
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "True Strike",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You extend your hand and point a finger at a target in range. The target makes a Wisdom saving throw. On a failed save, You have advantage on an  attack roll you make against the target after your current turn."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Abyssal)",
+					"source": "UAThatOldBlackMagic",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Witch Bolt",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a twig from a tree that has been struck by lightning"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When you cast this spell and as an action each round for the duration, you can make a ranged spell attack that targets one creature. On a hit, the target takes {@damage 2d6} lightning damage, and a sustained arc of lightning forms between you and it. On each of your turns for the duration, you can use an action to automatically deal {@damage 2d6} lightning damage to one target with which you have an arc. The arc ends for a target if it is ever outside the spell's range or if it has total cover from you."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the initial damage and automatic damage increase by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Jump",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a grasshopper's hind leg"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You target a creature you can see within range. The creature's  {@book jump distance|phb|8|Jumping} is tripled until the spell ends. Additionally, the target can use your spellcasting ability in place of their strength for the purpose of calculating their jump distance."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			},
+			"eldritchInvocations": [
+				{
+					"name": "Otherworldly Leap",
+					"source": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Barkskin",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of oak bark"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature. Until the spell ends, the targets skin has a rough, bark-like appearance, granting them a +2 bonus to their armour class. This spell cannot cause the targets AC to be higher than 18."
+			],
+			"miscTags": [
+				"MAC"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Forest"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Find Traps",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When you cast this spell, you become aware of how many traps are present within 120 feet of you, and the general nature of the danger posed by the traps. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesireable, which was specifically intended as such by its creator. Thus the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, or an unstable ceiling.",
+				"This spell can sense through wood and softer materials, and it penetrates up to 5 feet of stone, 1 foot of metal, and 1 inch of lead.",
+				"For the spells duration, you have advantage on skill checks made to detect or locate traps."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Flame Blade",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "leaf of sumac"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"When you cast this spell, you become aware of how many traps are present within 120 feet of you, and the general nature of the danger posed by the traps. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesireable, which was specifically intended as such by its creator. Thus the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, or an unstable ceiling.",
+				"This spell can sense through wood and softer materials, and it penetrates up to 5 feet of stone, 1 foot of metal, and 1 inch of lead.",
+				"For the spells duration, you have advantage on skill checks made to detect or locate traps."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for every slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"LGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Mephistopheles)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Gust of Wind",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a legume seed"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A gale of strong wind blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the area must succeed on a Strength saving throw or be pushed 15 feet away from you in a straight line and fall {@condition prone}.",
+				"Any creature moving in the effected area must spend 2 feet of movement for every 1 foot it moves when moving closer to you.",
+				"The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a {@chance 50} percent chance to extinguish them."
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"areaTags": [
+				"L"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Tempest",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fathomless",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Genie",
+							"source": "TCE",
+							"subSubclass": "Djinni"
+						}
+					},
+					{
+						"class": {
+							"name": "Monk",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Four Elements",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Triton",
+					"source": "VGM"
+				}
+			]
+		},
+		{
+			"name": "Ray of Enfeeblement",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength or Dexterity until the spell ends. ",
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Death",
+							"source": "DMG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Remove Curse",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"basicRules": true,
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a flask of holy water worth 25 gp; a holy relic or amulet worth 25gp; powered silver worth 50gp; rare herbs and/or monsterous body parts and fluids worth 150gp; all of which the spell consumes.",
+					"consume": true,
+					"cost": 25000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You perform an ancient ritual to unbind an object or creature from a curse effecting it.",
+				"If the object is a cursed magic item, you can choose to ignore the material components of this spell and have its curse remain, but the spell breaks its owner's attunement to the object so it can be removed or discarded. Otherwise, you can remove the cursed properties of a magical item which is of a rarity of rare or lower.",
+				"If the curse is effecting a creature, the spell must be cast within 1 mile of the location in which the creature obtained the curse or the creature that bestowed the curse upon them. The \"rare herbs and/or monsterous body parts and fluids\" within the material components may need to be specific to the curse effecting the creature, such as wolfsbane to cure a werewolf, at the discretion of the Dungeon Master.",
+				"If a creature is conscious and unwilling to be cured, they can make a Charisma saving throw. On a success, they are not subject to the effects of this spell.",
+				"If the curse being removed from a creature originated from the Bestow Curse spell, the spell slot expended to remove the curse must be equal to or greater than the spell slot used to bestow the curse. If you use a lower level slot, you must make an ability check with your spell casting ability a the end of the casting time of this spell, for which the DC is 10 + the level of the spell slot used to bestow the curse. On a success, the curse is lifted. On a failure, the curse is not lifted and the spell is wasted."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"A curse can be removed from a magical item with a rarity of very rare with a spell slot of 5th-level or higher; legendary with a slot of 7th-level or higher, and an artifact with a 9th-level slot.",
+						"For each spell slot above 3rd, a cursed creature can be an additional 5 miles away from the location where they were cursed or the person who cursed them to gain the benefits of this spell. With a spell slot of 9th-level, they must only be on the same plane of existence. "
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Stoneskin",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"basicRules": true,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a handful of pebbles"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to all damage except psychic and force."
+			],
+			"damageResist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "UAArtificer"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "War",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Conquest v2 (UA)",
+							"source": "UARevisedClassOptions"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Conquest",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Redemption (UA)",
+							"source": "UAATrioOfSubclasses"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Redemption",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Monk",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Four Elements",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Land",
+							"source": "PHB",
+							"subSubclass": "Mountain"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Gruul Anarch",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Find the Path",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"basicRules": true,
+			"level": 6,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a set of divinatory tools—such as bones, ivory sticks, cards, teeth, or carved runes—worth 100 gp and an object from the location you wish to find",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plane of existence, or a destination that isn't specific (such as \"a green dragon's lair\"), the spell fails.",
+				"For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.",
+				"While you are concentrating on this spell, and are following it's route, you and creatures of your choice who are also following this path may travel at a Fast Pace without incurring the penalties of a fast pace, and are able to use stealth while doing so."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mordenkainen's Sword",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"basicRules": true,
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp",
+					"cost": 25000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create a sword-shaped plane of force that hovers within range. It lasts for the duration. When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes {@damage 4d10} force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 30 feet to a spot you can see and repeat this attack against the same target or a different one."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Weird",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 9,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Intelligence saving throw. On a failed save, a creature drops whatever it is holding and becomes {@condition frightened} for the duration. While {@condition frightened} by this spell, a creature can only take the Dash or dodge action on each of its turns.",
+				"The illusion calls on the creatures deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition frightened} creature's turns, it must succeed on an Intelligence saving throw or take {@damage 12d4} psychic damage. On a successful save, the spell ends for that creature."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"abilityCheck": [
+				"intelligence"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Upheaval",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a forceful air current underneath a creature  sized large or smaller within range. The target must succeed on a Strength saving throw or be thrusted 10 feet straight up into the air, suffering the effects of fall damage as a result.",
+				"The distance the target is moved increases by 10 feet when you reach 5th level (20 feet), 11th level (30 feet), and 17th level (40 feet)."
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Shaman",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Lightning Lure",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 0,
+			"otherSources": [
+				{
+					"source": "SCAG",
+					"page": 143
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and take {@damage 1d8} lightning damage. This damage increases to {@dice 1d10} if the forced movement results in the target being within 5 feet of you.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@damage 2d8}), 11th level ({@damage 3d8}), and 17th level ({@damage 4d8}). These damage dice are also d10s if the required conditions are met."
+			],
+			"scalingLevelDice": {
+				"label": "lightning damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "SCAG"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "SCAG"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB",
+						"definedInSource": "SCAG"
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Infestation",
+			"source": "ElijasStolenScrollofSuperiorSpells",
+			"page": 158,
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a living flea"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes {@damage 1d4} piercing or poison damage (your choice) and the target has disadvantage on Wisdom (perception) and Concentration checks made before the start of your next turn.",
+				"The spell's damage increases by {@dice 1d4} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
+			],
+			"scalingLevelDice": {
+				"label": "poison damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
